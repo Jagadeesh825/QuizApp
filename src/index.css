@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(249,114,0);
+  background: radial-gradient(circle, rgba(249,114,0,1) 0%, rgba(250,159,2,1) 54%, rgba(250,139,3,1) 100%);
+
+  /* my css */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
